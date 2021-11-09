@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+int qjf(int a,int b)
+{
+	int c;
+	if(a>b)c=b;
+	else if(a<b)
+	c=a;
+	while(a%c!=0||b%c!=0)
+	{
+		c--;
+	}
+	return c;
+} 
+int main(){
+	int qjf(int a,int b);
+	int a,b,c;
+	cin>>a>>b>>c;
+	c=qjf(a,b);
+	printf("%d",c);
+	return 0;
+}
